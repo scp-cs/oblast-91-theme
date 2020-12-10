@@ -1,0 +1,160 @@
+:root {
+    --light-accent: #db7100;
+    --dark-accent: #ac5902;
+    --darker-accent: #5c2f00;
+    --hyperlink: #db7100;
+    --hyperlink-visited: #8f4e08;
+}
+
+/* HEADER CHANGE */
+#header h1 span::before {
+    content: 'Oblast-91';
+    color: #ffffff;
+}
+ 
+#header h2 span::before {
+    content: 'V Oblasti-91 se nikdy nic neděje.';
+    color: #fff1db;
+    text-shadow: none;
+}
+ 
+#header h1 a,
+#header h2 span {
+    color: transparent;
+    text-shadow: none;
+}
+
+/* LINKS */
+a {
+    color: #db7100;
+    color: var(--hyperlink);
+}
+
+a:visited {
+    color: #5c2f00;
+    color: var(--hyperlink-visited);
+}
+
+/* HEADER */
+h1, #page-title {
+    color: var(--dark-accent);
+}
+
+/*SIDE BAR */
+#side-bar .side-block {
+    border: 1px solid #ac5902;
+    color: var(--dark-accent);
+}
+ 
+#side-bar .heading {
+    color: var(--dark-accent);
+    border-bottom: solid 1px #5c2f00;
+}
+ 
+#side-bar .side-block.media {
+     background-color: #e8e1d2;
+}
+ 
+#side-bar .side-block.resources {
+     background-color: #fffcf0;
+}
+ 
+.side-block .menu-item > .image {
+    filter: hue-rotate(36deg);
+    -webkit-filter: hue-rotate(36deg);
+}
+
+/* MODULE RATE RECOLOR */
+.page-rate-widget-box .rate-points {
+    background-color: var(--dark-accent) !important;
+    border: solid 1px var(--dark-accent);
+  }
+  .page-rate-widget-box .rateup,
+  .page-rate-widget-box .ratedown {
+    background-color: #f0f8ff;
+    border-top: solid 1px var(--dark-accent);
+    border-bottom: solid 1px var(--dark-accent);
+  }
+  .page-rate-widget-box .rateup a,
+  .page-rate-widget-box .ratedown a {
+    background: transparent;
+    color: var(--dark-accent);
+  }
+  .page-rate-widget-box .rateup a:hover,
+  .page-rate-widget-box .ratedown a:hover {
+    background: var(--dark-accent);
+    color: #fffcf0;
+  }
+  .page-rate-widget-box .cancel {
+    background: transparent;
+    background-color: var(--dark-accent);
+    border: solid 1px var(--dark-accent);
+  }
+  .page-rate-widget-box .cancel a {
+    color: #fffcf0;
+  }
+  .page-rate-widget-box .cancel a:hover {
+    background: #cdeadc;
+    color: #fffcf0;
+  }
+
+/* INFO MODULE */
+#page-content .rate-box-with-credit-button {
+    background-color: var(--dark-accent);
+    border-color: var(--dark-accent);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+#page-content .creditButton p a {
+    border-left-color: #fffcf0;
+}
+ 
+#page-content .modalbox {
+    box-shadow: 0 2px 6px rgba(50, 32, 0, 0.5);
+}
+ 
+.close-credits,
+.credit-back {
+    filter: hue-rotate(36deg);
+}
+
+/* IMAGE BLOCK RECOLORING */
+.scp-image-block {
+    border: solid 1px #ac5902;
+}
+.scp-image-block .scp-image-caption {
+    background-color: #fff9f0;
+    border-top: solid 1px #ac5902;
+}
+
+/* TABS */
+.yui-navset .yui-content{
+    background-color: #f5f5f5;
+}
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    background-color:#d8d8d8;
+    background-image: url(../images/yuitabs.png);
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
+    background:#5c2f00 url(../images/yuitabs.png) repeat-x left -1400px; /* selected tab background */
+    color:#fff;
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+    background:#fff1db url(../images/yuitabs.png) repeat-x left -1300px;
+    text-decoration: none;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #ac5902;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: #ac5902;
+}
+.yui-navset li {
+    line-height: normal;
+}
