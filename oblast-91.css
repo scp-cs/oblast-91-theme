@@ -39,6 +39,10 @@ a:visited {
     color: var(--hyperlink-visited);
 }
 
+a:visited, #side-block {
+    color: var(--hyperlink);
+}
+
 /* HEADER */
 h1, #page-title {
     color: var(--dark-accent);
