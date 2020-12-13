@@ -28,6 +28,10 @@ div#container-wrap {
     background: url(http://scp-cs.wdfiles.com/local--files/component%3Aoblast-91/moar_orange_body_bg.png) repeat-x;
 }
 
+#header {
+    background-image: url(http://scp-cs.wdfiles.com/local--files/component%3Aoblast-91/logo_white.png);
+}
+
 /* LINKS */
 a {
     color: #db7100;
