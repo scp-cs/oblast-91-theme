@@ -1,2 +1,2 @@
-# oblast-91-theme
-Theme for the Oblast-91 canon
+# Oblast-91 Theme
+Theme for the Zlatá Klec canon
